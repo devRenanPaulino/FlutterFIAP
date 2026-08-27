@@ -7,6 +7,7 @@ Function criarFiltroMaiorQue(double limite) {
 }
 
 void main() {
+
   List<double> lista = [1.0, 2.5, 3.0, 4.2, 5.0];
 
   var filtroMaiorQueDoisEMeio = criarFiltroMaiorQue(2.5);
