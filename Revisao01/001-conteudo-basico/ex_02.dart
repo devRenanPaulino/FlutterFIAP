@@ -16,7 +16,7 @@ void main() {
     print("Reprovado");
   } else if (media >= 7) {
     print("Aprovado");
-  } else if (media >= 5 && media < 7) {
+  } else if (media >= 5) {
     print("Recuperação");
   } else {
     print("Reprovado!");

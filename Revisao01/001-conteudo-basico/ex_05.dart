@@ -5,7 +5,7 @@
 */
 
 double calcularDesconto(double valorCompra) {
-  if (valorCompra < 10) {
+  if (valorCompra < 100) {
     return 0.0;
   } else if(valorCompra <= 299.99) {
     return 5.0;

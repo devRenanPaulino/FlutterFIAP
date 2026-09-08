@@ -5,7 +5,7 @@
 */
 
 double realizaSaque(double saldo, double valor) {
-  if (valor <= 0 || valor.toInt() % 10 != 0) {
+  if (valor <= 0 || valor % 10 != 0) {
     print("Valor inválido");
     return saldo;
   } else if (valor > saldo) {

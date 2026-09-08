@@ -9,10 +9,10 @@ void main() {
 
   if (idade >= 0 && idade <= 12) {
     print("Criança");
-  } else if (idade >= 13 && idade <= 17) {
+  } else if (idade <= 17) {
     print("Adolescente");
-  } else if (idade >= 18 && idade <= 59) {
-    print("Adolescente");
+  } else if (idade <= 59) {
+    print("Adulto");
   } else if (idade >= 60) {
     print("Idoso");
   } else {
