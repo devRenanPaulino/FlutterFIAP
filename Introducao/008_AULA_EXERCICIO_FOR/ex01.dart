@@ -29,7 +29,7 @@ void main() {
   }
 
   while (true) {
-    double? entrada = lerNumero("Digite o número limite  até onde o fator deve ser multiplicado: ");
+    double? entrada = lerNumero("Digite o número limite até onde o fator deve ser multiplicado: ");
     if (entrada != null && entrada > 0 && entrada == entrada.roundToDouble()) {
       multiplicadorDigitado = entrada.toInt();
       break; 
